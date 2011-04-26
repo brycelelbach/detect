@@ -174,13 +174,13 @@
 
 // QNX (qnx)
 #elif defined(__QNX__)    \
-   || defined(__QNXNTO__) \
+   || defined(__QNXNTO__)
   #define BOOST_DETECT_KERNEL "qnx"
   #define BOOST_DETECT_QNX_KERNEL
 
 // Solaris (solaris)
 #elif defined(sun)   \
-   || defined(__sun) \
+   || defined(__sun) 
   #define BOOST_DETECT_KERNEL "solaris"
   #define BOOST_DETECT_SOLARIS_KERNEL
 
